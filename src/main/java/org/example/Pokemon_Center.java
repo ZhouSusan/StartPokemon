@@ -1,6 +1,6 @@
 package org.example;
 
-public class Main {
+public class Pokemon_Center {
     public static void main(String[] args) {
         Squirtle squirtle = new Squirtle("Squirtle", "water", "female");
         squirtle.speak();
