@@ -7,5 +7,11 @@ public class Main {
         squirtle.trainAbility();
         squirtle.eat();
         squirtle.whoAmI();
+
+        Charmander charmander = new Charmander("Charmander", "fire", "water");
+        charmander.speak();
+        charmander.trainAbility();
+        charmander.eat();
+        charmander.whoAmI();
     }
 }
