@@ -13,5 +13,11 @@ public class Main {
         charmander.trainAbility();
         charmander.eat();
         charmander.whoAmI();
+
+        Bulbasaur bulbasaur = new Bulbasaur("Bulbasaur", "Grass", 19.8);
+        bulbasaur.speak();
+        bulbasaur.trainAbility();
+        bulbasaur.eat();
+        bulbasaur.whoAmI();
     }
 }
