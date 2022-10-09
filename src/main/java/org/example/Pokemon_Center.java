@@ -1,5 +1,6 @@
 package org.example;
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Pokemon_Center {
     public static void main(String[] args) {
@@ -12,6 +13,9 @@ public class Pokemon_Center {
         pokeyTeam.add(squirtle);
         pokeyTeam.add(bulbasaur);
 
-        
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Please select your starter Pokemon: 1-Squirtle, 2-Bulbasaur, 3-Charmander");
+        int choice = sc.nextInt();
     }
 }
