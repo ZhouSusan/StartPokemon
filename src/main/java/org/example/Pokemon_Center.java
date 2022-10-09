@@ -17,5 +17,29 @@ public class Pokemon_Center {
 
         System.out.println("Please select your starter Pokemon: 1-Squirtle, 2-Bulbasaur, 3-Charmander");
         int choice = sc.nextInt();
+
+        switch(choice) {
+            case 1:
+                System.out.println("You have selected a Squirtle:");
+                squirtle.speak();
+                squirtle.trainAbility();
+                squirtle.eat();
+                squirtle.whoAmI();
+                break;
+            case 2:
+                System.out.println("You have selected a Bulbasaur");
+                bulbasaur.speak();
+                bulbasaur.trainAbility();
+                bulbasaur.eat();
+                bulbasaur.whoAmI();
+                break;
+            case 3:
+                System.out.println("You have selected a Charmander");
+                charmander.speak();
+                charmander.trainAbility();
+                charmander.eat();
+                charmander.whoAmI();
+                break;
+        }
     }
 }
