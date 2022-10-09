@@ -41,5 +41,11 @@ public class Pokemon_Center {
                 charmander.whoAmI();
                 break;
         }
+
+        if (choice <= 0 || choice >= 4) {
+            throw new ArithmeticException("Sorry. No Pokemon available. Please try again later!");
+        }
+
+        sc.close();
     }
 }
