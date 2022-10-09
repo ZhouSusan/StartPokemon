@@ -1,7 +1,9 @@
 package org.example;
+import java.util.ArrayList;
 
 public class Pokemon_Center {
     public static void main(String[] args) {
+        ArrayList <Pokemon> pokeyTeam = new ArrayList <>();
         Squirtle squirtle = new Squirtle("Squirtle", "water", "female");
         squirtle.speak();
         squirtle.trainAbility();
