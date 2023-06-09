@@ -1,4 +1,4 @@
-# StarterPokemon
+# StarterPokemon - My First Java project
 
 <p> Like in the Pokemon's series and games, when a youth turns 10 years old.... </p>
 <p> they can register for a Pokedex and pick up a starter Pokemon at the Pokemon Center.</p>
